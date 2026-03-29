@@ -1,0 +1,66 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  font-weight: var(--font-weight-medium);
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+  cursor: pointer;
+  border: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button:not(:disabled):hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.button:not(:disabled):active {
+  transform: translateY(0);
+}
+
+/* Primary: soft purple pill with handwritten font */
+.primary {
+  background-color: var(--color-cta);
+  color: #fff;
+  border-radius: var(--radius-full);
+  font-family: var(--font-hand);
+  font-size: 20px;
+  padding: var(--space-sm) var(--space-lg);
+  min-width: 120px;
+  height: 44px;
+}
+
+/* Ghost */
+.ghost {
+  background-color: transparent;
+  color: var(--color-cta);
+  border: 1.5px solid var(--color-cta);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-base);
+  padding: var(--space-sm) var(--space-lg);
+  min-width: 120px;
+  height: 44px;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--color-ghost-border);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+.ghost .spinner {
+  border-color: var(--color-ghost-hover);
+  border-top-color: var(--color-cta);
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

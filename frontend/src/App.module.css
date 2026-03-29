@@ -1,0 +1,19 @@
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: var(--space-xl) 0;
+}
+
+.inner {
+  width: 100%;
+  max-width: 480px;
+  padding: 0 var(--space-lg);
+}

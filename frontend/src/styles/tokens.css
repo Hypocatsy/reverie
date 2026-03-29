@@ -1,0 +1,62 @@
+:root {
+  /* Warm Cream & Lavender palette */
+  --color-bg:         #F5F2EA;
+  --color-surface:    #EDE8DC;
+  --color-accent:     #6B5B8B;
+  --color-cta:        #6B5B8B;
+  --color-ink:        #3D3244;
+
+  /* Semantic */
+  --color-error:      #C0392B;
+  --color-text:       var(--color-ink);
+  --color-text-muted: #8B7BAB;
+  --color-border:     rgba(61, 50, 68, 0.15);
+
+  /* Derived / alpha overlays */
+  --color-surface-alpha:  rgba(184, 169, 201, 0.25);
+  --color-ink-alpha-85:   rgba(61, 50, 68, 0.85);
+  --color-ink-alpha-15:   rgba(61, 50, 68, 0.15);
+  --color-ink-alpha-10:   rgba(61, 50, 68, 0.10);
+  --color-ink-alpha-05:   rgba(61, 50, 68, 0.05);
+  --color-cta-alpha-25:   rgba(123, 105, 145, 0.25);
+  --color-tab-bg:         rgba(255, 255, 255, 0.3);
+  --color-input-bg:       rgba(255, 255, 255, 0.6);
+  --color-focus-ring:     rgba(123, 105, 145, 0.2);
+  --color-ghost-border:   rgba(255, 255, 255, 0.4);
+  --color-ghost-hover:    rgba(123, 105, 145, 0.3);
+  --color-cta-shadow:     rgba(123, 105, 145, 0.35);
+  --color-error-bg:       rgba(192, 57, 43, 0.1);
+  --color-error-border:   rgba(192, 57, 43, 0.3);
+  --color-info-bg:        rgba(123, 105, 145, 0.12);
+  --color-info-border:    rgba(123, 105, 145, 0.3);
+
+  /* Spacing */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  16px;
+  --space-lg:  24px;
+  --space-xl:  40px;
+  --space-2xl: 64px;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-hand: 'Caveat', cursive;
+  --font-size-sm:   13px;
+  --font-size-base: 16px;
+  --font-size-lg:   20px;
+  --font-size-xl:   28px;
+  --font-size-2xl:  40px;
+  --font-weight-normal: 300;
+  --font-weight-medium: 500;
+
+  /* Radii */
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-full: 999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+}

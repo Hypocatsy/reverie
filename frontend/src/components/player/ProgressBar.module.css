@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+}
+
+.time {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  min-width: 34px;
+  flex-shrink: 0;
+}
+
+.time:last-child {
+  text-align: right;
+}
+
+.track {
+  flex: 1;
+  height: 4px;
+  background: var(--color-ink-alpha-15);
+  border-radius: var(--radius-full);
+  position: relative;
+  overflow: visible;
+}
+
+.fill {
+  height: 100%;
+  background: var(--color-accent);
+  border-radius: var(--radius-full);
+  position: relative;
+}
+
+.handle {
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 0 2px var(--color-cta-alpha-25);
+}
