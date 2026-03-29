@@ -44,8 +44,8 @@ The app runs at `http://localhost:5173`.
 
 LLM and image providers are swappable via `.env` — no code changes needed.
 
-**LLM:** OpenAI, Pollinations
-**Image:** Gemini, OpenAI, Pollinations
+**LLM:** OpenAI
+**Image:** Gemini, OpenAI
 
 (the DALLE-generated images are all photorealistic and I don't like any of them, so I recommend Gemini for best results)
 
